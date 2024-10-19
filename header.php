@@ -1,5 +1,3 @@
-<?php include 'index.php'?>
-
 <html lang="en" data-bs-theme="auto">
 <head><script src="/docs/5.3/assets/js/color-modes.js"></script>
     <meta charset="utf-8">
@@ -7,7 +5,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.122.0">
-    <title><?php echo $title?></title>
+    <title><?php echo $title; ?></title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/starter-template/">
 
